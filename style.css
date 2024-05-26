@@ -1,0 +1,62 @@
+/* Navigation */
+.navbar-collapse .navbar-nav .nav-item a:hover {
+    color: #ff523b;
+}
+
+.cart-item {
+    margin-bottom: 1rem;
+}
+
+/* Banner */
+.banner-image {
+    background: url('img/banner.jpeg') no-repeat center center / cover;
+    min-height: 600px;
+}
+
+/* Feature Products Card */
+.card-title a {
+    color: #333; 
+    text-decoration: none; 
+}
+
+/* Media queries for responsive adjustments */
+@media (max-width: 768px) {
+    .banner-image {
+        min-height: 300px; /* Adjust banner image for smaller devices */
+    }
+}
+
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #f8f9fa;
+    padding: 10px 0;
+}
+
+.navbar-brand img {
+    max-width: 100%;
+}
+
+.cart-item {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.cart-item img {
+    width: 100px;
+}
+
+.cart-summary {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    background: #343a40;
+    color: white;
+    padding: 10px 0;
+}
